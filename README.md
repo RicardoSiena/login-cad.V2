@@ -1,42 +1,42 @@
-# LOGIN CAD 💻
+# LOGIN CAD 
  
 ## LOGIN
-### OBJETIVO DO PROJETO ✅
+### OBJETIVO DO PROJETO 
 O objetivo deste projeto é permitir que os usuários realizem o login em um sistema. Para isso, os usuários devem preencher corretamente os campos obrigatórios.
  
  
 * O usuário deve preencher todos os campos obrigatórios corretamente.
 * O sistema realizará a validação dos campos. Caso algum campo esteja incorreto ou não preenchido, um alerta será exibido para informar o usuário.
  
-![alt text](image.png)  <br>
+![Alt text](img/image-1.png) <br>
  
-![alt text](image-2.png) <br>
-## CADASTRO 📲
+![Alt text](img/image-2.png)<br>
+## CADASTRO 
 Após um login bem-sucedido, o usuário será direcionado para a página de cadastro, onde poderá adicionar informações sobre membros.
-* Na página de cadastro, o usuário poderá adicionar nomes à lista, salvar as informações, e terá as opções de editar ou excluir os dados conforme necessário.
-![alt text](image-3.png)
-# Implementação da Tabela de E-mail 🖱️
+* Na página de cadastro, o usuário poderá adicionar nomes à lista, salvar as informações, e terá as opções de editar ou excluir os dados conforme necessário. <br>
+![Alt text](img/image-3.png)
+
+# Implementação da Tabela de E-mail 
  
-## Objetivo ✅
+## Objetivo 
 Garantir que os usuários forneçam um endereço de e-mail válido ao se registrar ou atualizar suas informações.
  
-## Funcionamento✅
+## Funcionamento
 *  O sistema vai verifica se o e-mail inserido contém pelo menos um caractere "@" e um ponto ".".
 *  Se o e-mail não apresentar as caracteres, um alerta é exibido ao usuário para corrigir o e-mail.
-## Exemplo de Validação: 🤳🏾
+## Exemplo de Validação: 
 * E-mail Válido: exemplo@um.com
-* E-mail Inválido: exemplo@dois (falta o ponto) ou exemplotrês.com (falta o @)
-![alt text](image-4.png)
- 
+* E-mail Inválido: exemplo@dois (falta o ponto) ou exemplotrês.com (falta o @)<br>
+![Alt text](img/image-4.png) 
 # Implementação da Tabela de CPF
  
-## Objetivo e funcionamento✅
+## Objetivo e funcionamento
 Os objetivos e funcionamentos do CPF são semelhantes ao do E-mail, o código ira verificar se o CPF é válido.
 * Verifica se o número de CPF inserido é válido e segue o padrão brasileiro, ajudando a evitar erros de digitação e fraudes. Cada CPF deve ter 11 dígitos e passar por um cálculo específico para confirmar sua autenticidade.
-![alt text](image-5.png)
+
+ ![Alt text](img/image-5.png)
  
- 
- # ELEMENTOS UTILIZADOS NO PROJETO ⚙️
+ # ELEMENTOS UTILIZADOS NO PROJETO 
 ## FUNÇÃO ACESSAR
 *  Validar se os campos de email e senha estão preenchidos antes de redirecionar o usuário para uma nova página.
     document.getElementById: recupera o valor do campo
@@ -60,3 +60,7 @@ document.getElementById("tabela").deleteRow(i): Remove a linha da tabela na posi
 ## FUNÇÃO VALIDAR EMAIL
        document.forms[0].email.value.indexOf("@") == -1 ||: para verificar se tem o "@" no email
        document.forms[0].email.value.indexOf(".") == -1: para verificar se tem o "." no email
+
+### Autores
+* Maria Yanagui
+* Ricardo Siena
